@@ -18,6 +18,11 @@ Play Virtual Music.
   1) There is a C++ music library called CFUGUE. (http://gopalakrishna.palem.in/CFugue.html)<br/>
   2) But we were unable to compile it unluckily in Mac. So we went for JFugue(little complicated).<br/>
   3) We recommend you to try using CFugue.<br/>
+  
+<u> How to Run:</u><br/>
+
+Compilation: g++ -ggdb `pkg-config --cflags --libs opencv libcurl` hand_detect.cpp -o hand_detect;
+Running: ./hand_detect
 
 ***************************************************************************************
 Built as part of #Global INFOSYS Hackathon 2016.<br/>
