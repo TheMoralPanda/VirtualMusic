@@ -21,8 +21,8 @@ Play Virtual Music.
   
 <u> How to Run:</u><br/>
 
-Compilation: g++ -ggdb `pkg-config --cflags --libs opencv libcurl` hand_detect.cpp -o hand_detect;
-Running: ./hand_detect
+<b>Compilation:</b> g++ -ggdb `pkg-config --cflags --libs opencv libcurl` hand_detect.cpp -o hand_detect; <br/>
+<b>Run:</b> ./hand_detect
 
 ***************************************************************************************
 Built as part of #Global INFOSYS Hackathon 2016.<br/>
